@@ -41,7 +41,7 @@ const Formulario = ({setAlert}) => {
             type="text"
             name="nombre"
             className="form-control"
-            placeholder="Nombre"
+            placeholder="Ingresar Nombre"
             onChange={(e) => setNombre(e.target.value)}
             value={nombre}
           />
@@ -51,7 +51,7 @@ const Formulario = ({setAlert}) => {
             type="email"
             name="email"
             className="form-control"
-            placeholder="tuemail@ejemplo.com"
+            placeholder="Ingresar email email@ejemplo.com"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
@@ -61,7 +61,7 @@ const Formulario = ({setAlert}) => {
             type="password"
             name="password"
             className="form-control"
-            placeholder="Contraseña"
+            placeholder="Ingresar Contraseña"
             onChange={(e) => setPassword(e.target.value)}
             value={password}
           />
